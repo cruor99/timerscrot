@@ -4,8 +4,8 @@ import threading
 
 
 def grabscreen():
-    datetimenow = datetime.datetime.now()
-    ImageGrab.grab_to_file("{}.png".format(str(datetimenow)))
+    datenow = datetime.datetime.now().strftime("%I_%M%p")
+    ImageGrab.grab_to_file("{}.png".format(str(datenow)))
 
 t = threading.Timer(600.0, grabscreen)
 t.start()
