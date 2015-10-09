@@ -1,0 +1,9 @@
+('C:\\Users\\Cruvirt\\PycharmProjects\\timerscrot\\dist\\main.exe',
+ True,
+ False,
+ None,
+ None,
+ [],
+ None,
+ False,
+ 1444400285L)
